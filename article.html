@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html> 
+    <head>
+        <title>NEWS</title>
+        <meta name="viewport" content="width=device-width">
+                <style>
+* {
+    margin: 10px;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background: #f4f4f4;
+    color: black ;
+    padding: 1px;
+    text-align: center;
+    border:2px;
+    margin:3px;
+}
+
+body {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding: 10px;
+}
+
+.news-article {
+    background: #f4f4f4;
+    padding: 1rem;
+    border-radius: 5px;
+    margin:10px;
+}
+
+.news-article img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+
+@media(min-width: 768px) {
+   body {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media(min-width: 1024px) {
+    body {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+
+        </style>
+    </head>
+   
+     <header>
+       <h1>BBC LATEST NEWS</h1>
+        <ul>
+         <li><a herf="JOE BIDEN"></a>JOE BIDEN</li>
+         <li><a herf="HUNTER"></a>HUNTER</li>
+         <li><a herf="GEORGIA"></a>GEORGIA</li>
+         <li><a herf="DEATH IN STADIUM"> DEATH IN STADIUM</a></li>
+      </ul> 
+     </header>
+       <body>
+      
+        <section  class="news-article">
+        <img src="joe.jpg" alt="Joe Biden">
+        <h1>Joe Biden issues 'full and unconditional' pardon for son Hunter </h1>
+        <p>US President Joe Biden has issued an official pardon for his son Hunter, who was set to face sentencing this month on federal felony gun and tax convictions </p>
+        </section>
+        
+        <section  class="news-article">
+            <img src="man.jpg" alt="Joe Biden's son">
+            <h1>Analysis: Biden’s sweeping pardon for son rewrites the rules</h1>
+            
+            <P>Joe Biden had repeatedly denied that he was going to pardon his son Hunter for his gun and tax evasion convictions or commute what was shaping up to be a substantive prison sentence.</h1>
+        </section>
+          
+        <section  class="news-article">
+            <img src="flag.jpg" alt="georgian flag">
+            <h1>Georgia's PM hits back as protests and resignations intensify</h1>
+            <p>Georgia has seen a fourth night of street demonstrations and a string of public resignations, triggered by the ruling party's decision to suspend a push to start talks on joining the European Union.</p>
+        </section>
+        
+        <section  class="news-article">
+            <img src="run.jpg" alt="masacar">
+            <h1>Dozens killed in crush at Guinea football match</h1>
+            <P>At least 56 people have been killed in a crush at a football match in Guinea's second-largest city, Nzérékoré, the government says.</P>
+        </section>
+          </body>
+</html>
